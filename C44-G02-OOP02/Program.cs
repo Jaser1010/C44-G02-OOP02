@@ -96,7 +96,6 @@ namespace C44_G02_OOP02
             {
                 person.Display();
             }
-            Console.WriteLine("---------------------------------\n");
             */
             #endregion
 
@@ -118,7 +117,34 @@ namespace C44_G02_OOP02
             double distance = Math.Sqrt(Math.Pow(p2.X - p1.X, 2) + Math.Pow(p2.Y - p1.Y, 2));
 
             Console.WriteLine($"The distance between the two points is: {distance:F2}");
-            Console.WriteLine("-------------------------------------------\n");
+            */
+            #endregion
+
+            #region Q3 - Find the oldest person
+            /*
+            Console.WriteLine("--- Question 3: Find The Oldest Person ---");
+            Person[] persons = new Person[3];
+
+            for (int i = 0; i < persons.Length; i++)
+            {
+                Console.WriteLine($"Enter details for person {i + 1}:");
+                Console.Write("Name: ");
+                persons[i].Name = Console.ReadLine();
+                Console.Write("Age: ");
+                persons[i].Age = Convert.ToInt32(Console.ReadLine());
+            }
+
+            Person oldestPerson = persons[0];
+            for (int i = 1; i < persons.Length; i++)
+            {
+                if (persons[i].Age > oldestPerson.Age)
+                {
+                    oldestPerson = persons[i];
+                }
+            }
+
+            Console.WriteLine("\nDetails of the oldest person:");
+            oldestPerson.Display();
             */
             #endregion
 
