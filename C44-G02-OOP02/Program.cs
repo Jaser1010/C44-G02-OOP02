@@ -148,7 +148,30 @@ namespace C44_G02_OOP02
             */
             #endregion
 
-            
+            #region Q4 - Rectangle struct demonstration
+            /*
+            Console.WriteLine("--- Question 4: Rectangle Struct Demo ---");
+            Rectangle rect = new Rectangle();
+
+            Console.WriteLine("Setting valid dimensions...");
+            rect.Width = 10.5;
+            rect.Height = 5.2;
+            rect.DisplayInfo();
+
+            Console.WriteLine("\nTrying to set negative width...");
+            rect.Width = -4.0; // This will print an error message
+            rect.DisplayInfo(); // Dimensions should remain unchanged
+
+            Console.WriteLine("\nTrying to set negative height...");
+            rect.Height = -2.3; // This will print an error message
+            rect.DisplayInfo(); // Dimensions should remain unchanged
+
+            Console.WriteLine("\nSetting new valid height...");
+            rect.Height = 7.0;
+            rect.DisplayInfo(); // Area should be updated
+
+            */
+            #endregion
         }
     }
 }
