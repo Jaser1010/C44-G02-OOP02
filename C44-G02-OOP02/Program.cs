@@ -100,6 +100,28 @@ namespace C44_G02_OOP02
             */
             #endregion
 
+            #region Q2 - Calculate distance between two points
+            /*
+            Console.WriteLine("--- Question 2: Distance Between Two Points ---");
+            Point p1, p2;
+
+            Console.Write("Enter X for Point 1: ");
+            p1.X = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter Y for Point 1: ");
+            p1.Y = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter X for Point 2: ");
+            p2.X = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter Y for Point 2: ");
+            p2.Y = Convert.ToDouble(Console.ReadLine());
+
+            double distance = Math.Sqrt(Math.Pow(p2.X - p1.X, 2) + Math.Pow(p2.Y - p1.Y, 2));
+
+            Console.WriteLine($"The distance between the two points is: {distance:F2}");
+            Console.WriteLine("-------------------------------------------\n");
+            */
+            #endregion
+
             
         }
     }
